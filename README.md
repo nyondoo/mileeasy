@@ -63,7 +63,7 @@
 ![](https://zuminternet.github.io/images/portal/post/2019-04-22-ZUM-Pilot-integer/flow_service1.png)
 
 - **방명록 CRUD**
-  - **사용자 요청** :pushpin: [코드 확인]  (https://github.com/nyondoo/mileeasy/blob/5469b15926259eceb3bb6d11e383527dbf45e1ce/views/guesthome.ejs#L131)
+  - **사용자 요청** :pushpin: [코드 확인](https://github.com/nyondoo/mileeasy/blob/5469b15926259eceb3bb6d11e383527dbf45e1ce/views/guesthome.ejs#L131)
   - **결과 응답** :pushpin: [코드 확인](https://github.com/nyondoo/mileeasy/blob/2961f19f5153e97090b62d15a886ee0ad1d3bbfc/controller/Crecommend.js#L15)
   - 사용자 방명록 페이지와 관련된 기능입니다.
   - '나의 방명록 보기' 기능으로 자신이 작성한 방명록을 볼 수 있게 하였고, 여기서 게시글 삭제가 가능합니다.

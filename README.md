@@ -16,6 +16,7 @@
   - Node.js
   - Express
   - MySQL
+  - Sequelize
 #### `Front-end`
   - HTML
   - CSS

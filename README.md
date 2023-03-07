@@ -30,13 +30,14 @@
 
 ## 4. 핵심 기능
 이 서비스의 핵심 기능은 MBTI 테스트 기능입니다. 
+<img width="820" alt="스크린샷 2023-03-07 172831" src="https://user-images.githubusercontent.com/116782318/223372844-69bc58b4-1f18-4a64-b54c-a02387ebf61b.png">
 
 <details>
 <summary><b>핵심 기능 설명 펼치기</b></summary>
 <div markdown="1">
 
 ### 4.1. MBTI 테스트
-![](https://zuminternet.github.io/images/portal/post/2019-04-22-ZUM-Pilot-integer/flow1.png)
+
 
 ### 4.1.1 사용자 요청 
 
@@ -59,8 +60,9 @@
   - 해당 유형의 여행지 정보를 DB에서 불러와 화면단에 응답해줍니다.
 
 ### 4.2. 방명록 (유저간 여행지 추천)
+<img width="389" alt="스크린샷 2023-03-07 172944" src="https://user-images.githubusercontent.com/116782318/223372938-1ee12336-4dbb-482e-a76a-bef0018d670d.png">
+<img width="746" alt="image" src="https://user-images.githubusercontent.com/116782318/223373285-2bd36db6-27e5-4801-8011-6329718efa11.png">
 
-![](https://zuminternet.github.io/images/portal/post/2019-04-22-ZUM-Pilot-integer/flow_service1.png)
 
 - **방명록 CRUD**
   - **사용자 요청** :pushpin: [코드 확인](https://github.com/nyondoo/mileeasy/blob/5469b15926259eceb3bb6d11e383527dbf45e1ce/views/guesthome.ejs#L131)

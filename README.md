@@ -30,14 +30,14 @@
 
 ## 4. 핵심 기능
 이 서비스의 핵심 기능은 MBTI 테스트 기능입니다. 
-<img width="820" alt="스크린샷 2023-03-07 172831" src="https://user-images.githubusercontent.com/116782318/223372844-69bc58b4-1f18-4a64-b54c-a02387ebf61b.png">
 
 <details>
 <summary><b>핵심 기능 설명 펼치기</b></summary>
 <div markdown="1">
 
 ### 4.1. MBTI 테스트
-
+  
+<img width="820" alt="스크린샷 2023-03-07 172831" src="https://user-images.githubusercontent.com/116782318/223372844-69bc58b4-1f18-4a64-b54c-a02387ebf61b.png">
 
 ### 4.1.1 사용자 요청 
 

@@ -1,6 +1,6 @@
 # :pushpin: MileEASY
 >MBTI 기반 여행지 추천 서비스 
->(bit.ly/3ZGbquV)
+>[Demo Link](bit.ly/3ZGbquV)
 
 </br>
 

@@ -12,35 +12,33 @@
 </br>
 
 ## 2. 사용 기술
-#### `Back-end`
-  - Node.js
-  - Express
-  - MySQL
-  - Sequelize
-#### `Front-end`
-  - HTML
-  - CSS
-  - JavaScript
-  - EJS
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white"> <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=Express&logoColor=white"> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white"> <img src="https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white">
+  </br>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"> `EJS`
 
 </br>
 
 ## 3. ERD 설계
-<img width="579" alt="스크린샷 2023-03-06 오후 4 33 06" src="https://user-images.githubusercontent.com/116782318/223166576-140975a2-c39d-45c1-a546-78131da0900e.png">
+<img width="700" alt="스크린샷 2023-03-06 오후 4 33 06" src="https://user-images.githubusercontent.com/116782318/223166576-140975a2-c39d-45c1-a546-78131da0900e.png">
 
+## 4. API 명세서
+👉 [API 명세 전체보기](https://bejewled-bandicoot-eb8.notion.site/API-51487cf2f5a54298902dc386aae4f2cf) 👈
 
-## 4. 핵심 기능
+<img width="700" alt="스크린샷 2023-03-25 오전 1 07 41" src="https://user-images.githubusercontent.com/116782318/227580257-26818533-df99-477a-b692-a6e2943506fc.png">
+<img width="700" alt="스크린샷 2023-03-25 오전 1 07 54" src="https://user-images.githubusercontent.com/116782318/227580272-7a9ac9ae-e72a-4cf1-b90f-4f37cddb3a88.png">
+
+## 5. 핵심 기능
 이 서비스의 핵심 기능은 MBTI 테스트 기능입니다. 
 
-<details>
-<summary><b>핵심 기능 설명 펼치기</b></summary>
 <div markdown="1">
 
-### 4.1. MBTI 테스트
+### 5.1. MBTI 테스트
   
 <img width="820" alt="스크린샷 2023-03-07 172831" src="https://user-images.githubusercontent.com/116782318/223372844-69bc58b4-1f18-4a64-b54c-a02387ebf61b.png">
 
-### 4.1.1 사용자 요청 
+### 5.1.1 사용자 요청 
 
 - **질문&답변 체크** :pushpin: [코드 확인](https://github.com/nyondoo/mileeasy/blob/2961f19f5153e97090b62d15a886ee0ad1d3bbfc/views/mbtitest.ejs#L33)
   - EJS 화면단에서, 사용자가 답변을 클릭하면 다음 질문으로 넘어갑니다.
@@ -49,7 +47,7 @@
 - **Axios 비동기 요청** :pushpin: [코드 확인](https://github.com/nyondoo/mileeasy/blob/2961f19f5153e97090b62d15a886ee0ad1d3bbfc/views/mbtitest.ejs#L40)
   - 사용자가 마지막 질문의 답변을 클릭할 경우, 답변 유형 배열을 담은 POST요청을 비동기로 날립니다.
 
-### 4.1.2 Controller
+### 5.1.2 Controller
 
 - **요청 처리** :pushpin: [코드 확인](https://github.com/nyondoo/mileeasy/blob/2961f19f5153e97090b62d15a886ee0ad1d3bbfc/controller/Cmbti_test.js#L24)
   - Controller에서는 화면단에서 넘어온 요청을 받고, MBTI 유형 도출 로직을 처리합니다.
@@ -60,7 +58,7 @@
   - 결과 페이지만도 보여줄 수 있도록 DB에서 유저의 MBTI유형을 검색합니다.
   - 해당 유형의 여행지 정보를 DB에서 불러와 화면단에 응답해줍니다.
 
-### 4.2. 방명록 (유저간 여행지 추천)
+### 5.2. 방명록 (유저간 여행지 추천)
 <img width="389" alt="스크린샷 2023-03-07 172944" src="https://user-images.githubusercontent.com/116782318/223372938-1ee12336-4dbb-482e-a76a-bef0018d670d.png">
 <img width="746" alt="image" src="https://user-images.githubusercontent.com/116782318/223373285-2bd36db6-27e5-4801-8011-6329718efa11.png">
 
@@ -72,6 +70,5 @@
   - '나의 방명록 보기' 기능으로 자신이 작성한 방명록을 볼 수 있게 하였고, 여기서 게시글 삭제가 가능합니다.
 
 </div>
-</details>
 
 </br>

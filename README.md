@@ -29,8 +29,10 @@
 ## 4. API 명세서
 👉 [API 명세 전체보기](https://drive.google.com/file/d/1RicJI6am5wg86hoJGNi0WcOB9BuIoQn8/view?usp=sharing) 👈
 
-<img width="700" alt="스크린샷 2023-03-25 오전 1 07 41" src="https://user-images.githubusercontent.com/116782318/227580257-26818533-df99-477a-b692-a6e2943506fc.png">
-<img width="700" alt="스크린샷 2023-03-25 오전 1 07 54" src="https://user-images.githubusercontent.com/116782318/227580272-7a9ac9ae-e72a-4cf1-b90f-4f37cddb3a88.png">
+<img width="800" alt="스크린샷 2023-04-01 163346" src="https://user-images.githubusercontent.com/116782318/229272449-5bf31628-0005-4f74-8634-af51d7f14259.png">
+<img width="800" alt="스크린샷 2023-03-25 오전 1 07 41" src="https://user-images.githubusercontent.com/116782318/227580257-26818533-df99-477a-b692-a6e2943506fc.png">
+<img width="800" alt="스크린샷 2023-03-25 오전 1 07 54" src="https://user-images.githubusercontent.com/116782318/227580272-7a9ac9ae-e72a-4cf1-b90f-4f37cddb3a88.png">
+<img width="800" alt="스크린샷 2023-04-01 163355" src="https://user-images.githubusercontent.com/116782318/229272451-38fb7e54-1dee-436b-86dc-93c77f7c8ea2.png">
 
 ## 5. 핵심 기능
 이 서비스의 핵심 기능은 MBTI 테스트 기능입니다. 
